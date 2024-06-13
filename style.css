@@ -1,0 +1,22 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3e4eb8; /* Attractive background color */
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#moveableGif {
+  position: absolute;
+  width: 100px; /* Smaller size for the GIF */
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
